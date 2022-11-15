@@ -11,64 +11,160 @@ class TaskFour extends StatelessWidget {
             backgroundColor: Colors.red,
             title: Text("Create Divide Line Button Views"),
           ),
-          body: Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Column(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.only(top: 10, bottom: 10),
-                    child: Column(
-                      children: [
-                        Container(
-                          child: Text("Above View", style: TextStyle(fontSize: 24),),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Column(
+          body: Column(
+            children: [
+              Padding(padding: EdgeInsets.only(top: 20, bottom: 20),child: Text("Bilol Abdunazarov", style: TextStyle(fontSize: 30),)),
+              Expanded(
+                child: SingleChildScrollView(
+                  // physics: const NeverScrollableScrollPhysics(),
+                  // physics: const ClampingScrollPhysics(),
+                  // physics: FixedExtentScrollPhysics(),
+                  physics: const BouncingScrollPhysics(),
+                  padding: EdgeInsets.all(20),
+
+                  child: Column(
                     children: [
-                      Padding(
-                        padding: EdgeInsets.only(top: 20),
-                        child: Row(
-                          children: [
-                            Expanded(
-                              child: Divider(
-                                color: Colors.red,
-                                thickness: 3,
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsets.symmetric(horizontal: 20),
-                              child: Container(
-                                child: Text("OR", style: TextStyle(fontSize: 20),),
-                              ),
-                            ),
-                            Expanded(
-                              child: Divider(
-                                color: Colors.red,
-                                thickness: 3,
-                              ),
-                            ),
-                          ],
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: BorderRadius.all(Radius.circular(16))
                         ),
-                      )
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
+                      Container(
+                        height: 100,
+                        margin: EdgeInsets.only(top: 10),
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.all(Radius.circular(16))
+                        ),
+                      ),
                     ],
                   ),
-                  Padding(
-                    padding: EdgeInsets.only(top: 30),
-                    child: Column(
-                      children: [
-                        Container(
-                          child: Text("Below View", style: TextStyle(fontSize: 24),),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+                ),
               ),
-            ),
+            ],
           )),
     );
   }
